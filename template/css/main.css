@@ -1,0 +1,89 @@
+h1  {
+  font-family: "Raleway", serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  min-height: 40px; }
+  nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 5%; }
+  nav a {
+    text-decoration: none;
+    transition: all 1s; }
+
+body {
+  background: white;
+}
+
+p {
+  background: white;
+  color: white;
+  border: 1px white;
+  font-size: 24px; }
+
+
+
+.box {
+  padding-left: 600px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  background: #EBF4FA ;
+  border: 1px; }
+
+.box2 {
+  padding-right: 600px;
+  width: 200px;
+  height: 150px;
+  background: #EBF4FA;
+  border: 1px; }
+
+.box3 {
+  padding-left: 600px;
+  width: 200px;
+  height: 150px;
+  background: #EBF4FA;
+  border: 1px; }
+
+  .box4 {
+  padding-right: 600px;
+  width: 200px;
+  height: 150px;
+  background: #EBF4FA;
+  border: 1px; }
+
+  .gallery {
+  width: 100%;
+  max-width: 1040px;
+  margin: auto;
+  float: left;
+  height: 340px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-image {
+  width: 480px;
+  height:340px;
+   margin: 20px;
+   border: 5px solid #FFF;
+}
+
+
+.gallery-image:nth-child(2n+1) {
+  background-image: url('https://c1.staticflickr.com/3/2926/32772167714_146449cfd5_z.jpg');
+}
+.gallery-image:nth-child(2n+2) {
+  background-image: url('https://c1.staticflickr.com/4/3817/33458246282_f351977ede_z.jpg');
+}
